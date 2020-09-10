@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shehia">
+        <item>Chagua shehia husika</item>
+        <item>Shangani</item>
+        <item>Mkunazini</item>
+        <item>Kiponda</item>
+        <item>Malindi</item>
+        <item>Mchangani</item>
+        <item>Mlandege</item>
+        <item>Muembe Ladu</item>
+        <item>Gulioni</item>
+        <item>Makadara</item>
+        <item>Shaurimoyo</item>
+        <item>Muembe Makumbi</item>
+        <item>Chumbuni</item>
+        <item>Kwamtipura</item>
+        <item>Amaani</item>
+    </string-array>
+</resources>

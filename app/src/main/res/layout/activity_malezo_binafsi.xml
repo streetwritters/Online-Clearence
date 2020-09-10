@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/projectColor"
+    tools:context=".malezo_binafsi">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:text="Fomu Ya Malipo Ya Mchanga"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Maelezo Binafsi Ya Muombaji" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/fname"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        app:form_height="40dp"
+        app:form_hint="Jina La Kwanza"
+        app:form_inputType="text"
+        app:form_isMandatory="true"
+        app:form_label="Jina La Kwanza" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/mname"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:form_height="40dp"
+        app:form_hint="Jina La kati"
+        app:form_inputType="text"
+        app:form_isMandatory="true"
+        app:form_label="Jina La kati" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/lname"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:form_height="40dp"
+        app:form_hint="Jina La Mwisho"
+        app:form_inputType="text"
+        app:form_isMandatory="true"
+        app:form_label="Jina La Mwisho" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/zanID"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:form_height="40dp"
+        app:form_hint="Kitambulisho cha Mzanzibari"
+        app:form_inputType="text"
+        app:form_isMandatory="true"
+        app:form_label="Kitambulisho cha Mzanzibari" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/phoneNumber"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:form_hint="Nambari ya Simu"
+        app:form_inputType="phoneNumber"
+        app:form_isMandatory="true"
+        app:form_label="Nambari ya Simu"/>
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/mtaa"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:form_height="40dp"
+        app:form_hint="Mtaa/Shehia"
+        app:form_inputType="text"
+        app:form_isMandatory="true"
+        app:form_label="Mtaa/Shehia" />
+
+    <Button
+        android:id="@+id/btnMchanga"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="106dp"
+        android:text="Endelea"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/button" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

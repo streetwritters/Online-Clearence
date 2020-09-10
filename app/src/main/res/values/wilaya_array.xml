@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wilaya">
+        <item>Chagua Wilaya husika</item>
+        <item>MJINI MAGHARIBI</item>
+        <item>MAGHARIBI A </item>
+        <item>MAGHARIBI B </item>
+        <item>WILAYA YA KATI </item>
+        <item>WILAYA YA KUSINI </item>
+    </string-array>
+</resources>
